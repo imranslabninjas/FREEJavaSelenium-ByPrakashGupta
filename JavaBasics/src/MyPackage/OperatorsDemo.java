@@ -14,7 +14,7 @@ public class OperatorsDemo {
 		// Negate expression
 		boolean bool1 = true;
 		System.out.println("Not operator: " + !bool1 );
-		System.out.println("Negaate: "+ ~10);
+		System.out.println("Negate: "+ ~a); // multiply by -1
 		
 		// Arithmatic operations
 		
