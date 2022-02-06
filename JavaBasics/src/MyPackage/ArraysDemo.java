@@ -4,7 +4,6 @@ public class ArraysDemo {
 
 	public static void main(String[] args) {
 		
-		String[] students = {"Mahi", "Sharmin", "Samuel"};
 		String[] subjects = {"Science", "Maths"};
 		
 		// display array values
@@ -25,6 +24,16 @@ public class ArraysDemo {
 		
 		int[][] subjectWiseMarks = {{30,20,25,33},{23,55,33,55}};
 		System.out.println("Marks for 2nd subject and 3rd quarter:"+  subjectWiseMarks[1][2]);
+		
+		//display all the values
+		System.out.println(subjectWiseMarks[0][0]);
+		System.out.println(subjectWiseMarks[0][1]);
+		System.out.println(subjectWiseMarks[0][2]);
+		System.out.println(subjectWiseMarks[0][3]);
+		System.out.println(subjectWiseMarks[1][0]);
+		System.out.println(subjectWiseMarks[1][1]);
+		System.out.println(subjectWiseMarks[1][2]);
+		System.out.println(subjectWiseMarks[1][3]);
 		
 		
 		
